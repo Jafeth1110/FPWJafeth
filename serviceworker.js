@@ -152,7 +152,7 @@ self.addEventListener('fetch', event =>{
         }).catch(tryFallback)
     })
 
-    event.responseWith(response) 
+    event.respondWith(response) 
 
 })
 
