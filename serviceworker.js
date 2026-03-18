@@ -18,11 +18,11 @@ self.addEventListener('install', event =>{
     const cacheStatic = caches.open(CACHE_STATIC_NAME)
         .then(cache=>{
             return cache.addAll([
-                '/',
-                '/index.html',
-                '/css/style.css',
-                '/js/script.js',
-                'img/no-image.png'
+                './',
+                './index.html',
+                './css/style.css',
+                './js/script.js',
+                './img/no-image.png'
                 /**Agregar imagenes */
             ])
         })
