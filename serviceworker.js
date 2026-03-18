@@ -22,7 +22,8 @@ self.addEventListener('install', event =>{
                 './index.html',
                 './css/style.css',
                 './js/script.js',
-                './img/no-image.png'
+                './img/no-image.png',
+                './img/imagen1.png',
                 /**Agregar imagenes */
             ])
         })
